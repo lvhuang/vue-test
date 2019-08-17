@@ -1,18 +1,18 @@
 <template>
   <div id="app">
     <div>
-      <ControlPanel></ControlPanel>
+      <Layout></Layout>
     </div>
   </div>
 </template>
 
 <script>
-import ControlPanel from "./components/HelloWorld";
+import Layout from "./components/Layout";
 
 export default {
   name: "app",
   components: {
-    ControlPanel
+    Layout
   }
 };
 </script>
