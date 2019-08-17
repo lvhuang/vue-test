@@ -1,9 +1,6 @@
 <template>
   <div>
-    <div class="put">
-      <p>Product：</p>
-      <a-input placeholder="Input a Product" />
-    </div>
+    A
   </div>
 </template>
 
