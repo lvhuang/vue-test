@@ -1,3 +1,3 @@
 export function filter(data) {
-    return data
+    return data.data.ErrorCode
 }

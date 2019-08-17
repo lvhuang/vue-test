@@ -1,3 +1,5 @@
+import { filter } from '../utils/utilstest'
+
 export function getUserService(response) {
-    return response.data.ErrorCode
+    return filter(response)
 }
