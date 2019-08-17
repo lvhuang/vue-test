@@ -1,20 +1,21 @@
 <template>
   <div id="app">
-    <ControlPanel></ControlPanel>
+    <div>
+      <ControlPanel></ControlPanel>
+    </div>
   </div>
 </template>
 
 <script>
-import ControlPanel from './components/HelloWorld'
+import ControlPanel from "./components/HelloWorld";
 
 export default {
-  name: 'app',
+  name: "app",
   components: {
     ControlPanel
   }
-}
+};
 </script>
 
 <style>
-
 </style>
