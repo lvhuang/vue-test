@@ -2,9 +2,9 @@ import Vue from 'vue'
 import VueRouter from 'vue-router'
 Vue.use(VueRouter)
 
-import pageA from './page/pageA'
-import pageB from './page/pageB'
-import pageC from './page/pageC'
+import pageA from './pages/pageA'
+import pageB from './pages/pageB'
+import pageC from './pages/pageC'
 
 const routes = [
     { path: "/", redirect: "/A" },
